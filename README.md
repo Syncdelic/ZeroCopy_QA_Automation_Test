@@ -51,7 +51,7 @@ python -m venv .venv && source .venv/bin/activate      # PowerShell: .venv\Scrip
 pip install -r requirements.txt
 
 # 4 Run the whole test-suite headless
-pytest -q                                              # expect: 4 + 1 + 3 = 8 passed
+pytest -q                                              # expect: 4 + 1 + 4 = 9 passed
 ```
 
 > **Tip:** set `HEADLESS=0` to watch the browser during Part 1.
@@ -119,7 +119,7 @@ pytest visual_tests -q  # 1 passed when images match
 ### Run only Part 3
 
 ```bash
-pytest api_tests -q     # 3 passed
+pytest api_tests -q     # 4 passed
 ```
 
 ---
