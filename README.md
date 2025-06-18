@@ -4,7 +4,7 @@ A three‑part showcase of core QA skills. This README covers **Part 1: UI Logi
 
 ---
 
-\## Part 1 — Selenium + pytest login suite
+## Part 1 — Selenium + pytest login suite
 
 |                   | Requirement                                             |
 | ----------------- | ------------------------------------------------------- |
@@ -16,7 +16,7 @@ A three‑part showcase of core QA skills. This README covers **Part 1: UI Logi
 
 ---
 
-\### Prerequisites
+### Prerequisites
 
 * Python ≥ 3.9
 * **Google Chrome *or* Chromium** installed
@@ -47,11 +47,11 @@ A three‑part showcase of core QA skills. This README covers **Part 1: UI Logi
 
 ---
 
-\### Quick start
+### Quick start
 
 ```bash
 # clone the repo
-$ git clone <your‑fork‑url> && cd ZeroCopy_QA_Automation_Test
+$ git clone https://github.com/Syncdelic/ZeroCopy_QA_Automation_Test.git && cd ZeroCopy_QA_Automation_Test
 
 # create & activate virtual‑env
 $ python -m venv .venv && source .venv/bin/activate
@@ -71,7 +71,7 @@ To **watch the browser**, set `HEADLESS=0`:
 
 ---
 
-\### Project layout (part 1)
+### Project layout (part 1)
 
 ```
 .
@@ -88,7 +88,7 @@ To **watch the browser**, set `HEADLESS=0`:
 
 ---
 
-\### Troubleshooting
+### Troubleshooting
 
 * **Version mismatch** → `selenium.common.exceptions.SessionNotCreatedException`  ➜  install matching major versions of Chrome/Chromium and chromedriver.
 * **Port already in use** → stray chromedriver process; kill it or reboot.
