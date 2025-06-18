@@ -1,10 +1,16 @@
+# UI / Selenium
 selenium==4.21.0
 webdriver-manager==4.0.1
+
+# Test runner
 pytest==8.2.1
 
-# visual-testing deps
+# Visual testing
 numpy==1.26.4
 opencv-python==4.10.0.82
 scikit-image==0.23.2
 imutils==0.5.4
 
+# API testing
+requests>=2.32
+jsonschema>=4.22
