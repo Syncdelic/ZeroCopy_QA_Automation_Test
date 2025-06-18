@@ -2,6 +2,8 @@
 
 # Zero Copy Labs · QA Automation Test
 
+---
+
 End-to-end demonstration of three core QA skills:
 
 1. **UI automation** with Selenium & pytest  
