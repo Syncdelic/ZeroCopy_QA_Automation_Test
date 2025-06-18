@@ -131,7 +131,7 @@ pytest api_tests -q     # 4 passed
 | `SessionNotCreatedException`                   | Chrome / chromedriver major versions differ → upgrade one side             |
 | Browser flashes then closes (or nothing shown) | Remove `HEADLESS=0` on servers without GUI                                 |
 | `requests.exceptions.ConnectionError` (Part 3) | Offline / proxy – set `REQRES_URL` to a local stub or use a VPN            |
-| SSIM below threshold (Part 2)                  | Genuine visual regression – inspect artefacts in `visual_tests/artifacts/` |
+| SSIM below threshold (Part 2)                  | Genuine visual regression – inspect artefacts in `visual_tests/artefacts/` |
 
 ---
 
@@ -148,4 +148,4 @@ pytest api_tests -q     # 4 passed
 
 ---
 
-*© 2025 Zero Copy Labs · All rights reserved*
+*© 2025 Zero Copy Labs · All rights reservee*
